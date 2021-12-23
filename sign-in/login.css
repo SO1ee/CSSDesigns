@@ -1,0 +1,74 @@
+body{
+  background:rgb(179,179,179);
+}
+.main{
+  margin:auto;
+  margin-top:5%;
+  width: 60%;
+  height:600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow:20px 20px 20px grey;
+}
+.box1{
+  background: white;
+  box-sizing: border-box;
+
+}
+.box2{
+  background: url('coffee1.jpg');
+  background-size:cover;
+
+}
+/*.hr1{
+  color:black;
+  background:black;
+}*/
+.container{
+  height:200px;
+  width:80%;
+  margin:auto;
+  margin-top:40%;
+  border:2px solid rgb(242,242,242) ;
+}
+input{
+  border:none;
+  border-bottom: 2px solid  rgb(112,28,28) ;
+  width:60%;
+  margin-left:40px;
+  outline:none;
+}
+input:hover{
+  border-bottom: 2px solid red;
+  width:70%;
+  margin-left:20px;
+}
+label{
+  padding-left:10%;
+  font-size:25px;
+}
+button{
+  background-color:rgb(112,28,28);
+  color:white;
+  height:20%;
+  width:20%;
+  border:none;
+  border-radius:20px;
+  font-size:90%;
+  font-weight:bold;
+  position:relative;
+  left:35%;
+  margin-top:5%;
+}
+button:hover{
+  background-color:rgb(231, 68, 76);
+}
+p{
+  font-weight:bold;
+  color:rgb(112,28,28);
+  text-align:center;
+  font-size:1.2em;
+}
+p a{
+  color:salmon;
+}
